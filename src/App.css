@@ -78,11 +78,12 @@ table {
 
 .content {
     display:flex;
+    flex-flow: row wrap;
     gap:3em;
     align-items:baseline;
     justify-content: center;
 }
 
 .deceased {
-    
+    color: red;
 }
